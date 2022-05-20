@@ -1,10 +1,10 @@
-<?php 
+<?php
 
 require './db.php';
 $page = isset($_GET['page']) ? $_GET['page'] : 0;
 
 $query = "SELECT * FROM film LIMIT {$page},12";
-$sql = $db->query($query);
+$sql = $database->query($query);
 $data = [];
 
 while($row = $sql->fetch_assoc()){
