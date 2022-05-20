@@ -1,17 +1,17 @@
-.card-dekstop{
+.card{
     height: 100%;
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);}
 .card-img-top {
     width: 100%;
     height: 20vw;
     object-fit: cover;}
-aside-dekstop {
+aside {
   float: left;
   width: 20%;
   margin-left: 40px;
 }
 
-.container-dekstop {
+.container {
   float: right;
   width: 70%;
   margin-right: 40px;
@@ -19,9 +19,9 @@ aside-dekstop {
 body { background: rgb(220, 248, 255) !important; }
 
 .card-text{
-    color: white;
+    color: black;
 }
 
 .card-title{
-    color: white;
+    color: black;
 }
